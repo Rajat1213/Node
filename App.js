@@ -39,7 +39,7 @@ app.post('/hello',(req,res)=>{
  app.listen(PORT,()=>{
      console.log('Hii i"m listening on'+ PORT)
 })
-// http.createServer((req,res)=>{
-//     res.write('HI');
-//     res.end()
-// }).listen(PORT)
+http.createServer((req,res)=>{
+    res.write('HI');
+    res.end()
+}).listen(PORT)
