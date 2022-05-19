@@ -24,6 +24,7 @@ app.post('/hello',(req,res)=>{
   }
   if(noroll){
       res.status(400).send("enter roll")
+      //rajat bhai
   }
 
   if (allfilled){
